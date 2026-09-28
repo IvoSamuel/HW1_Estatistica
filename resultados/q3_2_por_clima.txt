@@ -1,0 +1,26 @@
+
+--- Q3.2: Utilizacao por condicao meteorologica ---
+
+--- Estatisticas de total_user por condicao meteorologica ---
+              n   Media Mediana      DP CV_pct Temp_media Dias_low Prop_low
+Céu limpo   189 4023.45  4342.0 1130.58 28.100     22.612       32    0.169
+Nublado      99 3368.03  3644.0 1187.51 35.258     21.171       32    0.323
+Chuva fraca  12 1775.58  1829.5  761.77 42.903     18.867       11    0.917
+
+Tabela salva em resultados/resumo_clima.csv
+
+eta^2 (weathersit) = 0.1631 
+
+--- Tabela cruzada estacao x clima ---
+           
+            Céu limpo Nublado Chuva fraca Chuva forte
+  Inverno          30      13           1           0
+  Primavera        52      38           2           0
+  Verão            66      25           3           0
+  Outono           41      23           6           0
+null device 
+          1 
+
+Figura salva em figuras/boxplot_clima_proporcao_low_usage.png
+
+Feito!

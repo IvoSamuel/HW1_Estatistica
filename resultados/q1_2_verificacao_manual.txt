@@ -1,0 +1,64 @@
+
+--- Q1.2: Verificacao dos calculos manuais (10 primeiras obs) ---
+
+--- Dados das 10 primeiras observacoes ---
+   instant     dteday temp casual registered total_user
+1       36 2011-02-05  9.6    100        905       1005
+2       37 2011-02-06 11.7    354       1269       1623
+3       38 2011-02-07 11.1    120       1592       1712
+4       39 2011-02-08  9.1     64       1466       1530
+5       40 2011-02-09  5.5     53       1552       1605
+6       41 2011-02-10  5.9     47       1491       1538
+7       42 2011-02-11  7.8    149       1597       1746
+8       43 2011-02-12  9.1    288       1184       1472
+9       44 2011-02-13 13.0    397       1192       1589
+10      45 2011-02-14 17.0    208       1705       1913
+
+total_user (10 obs): 1005 1623 1712 1530 1605 1538 1746 1472 1589 1913 
+Ordenado: 1005 1472 1530 1538 1589 1605 1623 1712 1746 1913 
+
+--- Medidas de tendencia central e dispersao (total_user) ---
+Soma = 15733  | Media = 1573.3  | Mediana = 1597 
+Variancia amostral = 56058.7  | Desvio padrao = 236.767 
+Moda: $valores
+ [1] "1005" "1472" "1530" "1538" "1589" "1605" "1623" "1712" "1746" "1913"
+
+$frequencia
+[1] 1
+
+
+--- Quartis de total_user (3 metodos) ---
+Quartis (type = 7, padrao do R):
+     0%     25%     50%     75%    100% 
+1005.00 1532.00 1597.00 1689.75 1913.00 
+Quartis (type = 6, posicao (n+1)p):
+    0%    25%    50%    75%   100% 
+1005.0 1515.5 1597.0 1720.5 1913.0 
+Quartis (type = 2, mediana das metades):
+  0%  25%  50%  75% 100% 
+1005 1530 1597 1712 1913 
+IQR (type 7) = 157.75 
+
+--- Temperatura (10 primeiras obs) ---
+temp (10 obs): media = 9.98  | mediana = 9.35  | dp = 3.42825 
+Moda temp:$valores
+[1] "9.1"
+
+$frequencia
+[1] 2
+
+
+--- Correlacao ---
+Correlacao de Pearson temp x total_user (10 obs) = 0.36161 
+
+--- Tabelas de frequencia (10 obs) ---
+Tabela season (10 obs):
+
+  Inverno Primavera     Verão    Outono 
+       10         0         0         0 
+Tabela weathersit (10 obs):
+
+  Céu limpo     Nublado Chuva fraca Chuva forte 
+          8           2           0           0 
+
+Feito! Confere os valores acima com os calculos manuais do relatorio.

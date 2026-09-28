@@ -1,0 +1,36 @@
+
+--- Q2.1: Tipos, categorias e valores ausentes ---
+
+--- Estrutura do data_group ---
+'data.frame':	300 obs. of  10 variables:
+ $ instant   : int  36 37 38 39 40 41 42 43 44 45 ...
+ $ dteday    : Date, format: "2011-02-05" "2011-02-06" "2011-02-07" ...
+ $ season    : int  1 1 1 1 1 1 1 1 1 1 ...
+ $ weathersit: int  2 1 1 1 2 1 1 1 1 1 ...
+ $ temp      : num  9.6 11.7 11.1 9.1 5.5 5.9 7.8 9.1 13 17 ...
+ $ casual    : int  100 354 120 64 53 47 149 288 397 208 ...
+ $ registered: int  905 1269 1592 1466 1552 1491 1597 1184 1192 1705 ...
+ $ total_user: int  1005 1623 1712 1530 1605 1538 1746 1472 1589 1913 ...
+ $ season_f  : Factor w/ 4 levels "Inverno","Primavera",..: 1 1 1 1 1 1 1 1 1 1 ...
+ $ weather_f : Factor w/ 4 levels "Céu limpo","Nublado",..: 2 1 1 1 2 1 1 1 1 1 ...
+
+Periodo observado: 2011-02-05 a 2011-12-01 ( 300 dias )
+
+--- Frequencias - season ---
+
+  Inverno Primavera     Verão    Outono 
+       44        92        94        70 
+
+--- Frequencias - weathersit ---
+
+  Céu limpo     Nublado Chuva fraca Chuva forte 
+        189          99          12           0 
+
+--- Valores ausentes por variavel ---
+   instant     dteday     season weathersit       temp     casual registered total_user   season_f  weather_f 
+         0          0          0          0          0          0          0          0          0          0 
+Total de valores ausentes: 0 
+
+Datas consecutivas sem lacunas? TRUE 
+
+Feito!

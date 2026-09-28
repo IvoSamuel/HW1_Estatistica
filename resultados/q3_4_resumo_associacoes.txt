@@ -1,0 +1,17 @@
+
+--- Q3.4: Resumo das associacoes ---
+
+--- Resumo das medidas de associacao ---
+     temp_r2  season_eta2 weather_eta2 
+      0.5035       0.4339       0.1631 
+
+--- Interpretacao ---
+Temperatura (r^2): 0.5035 - associacao linear mais forte
+Estacao (eta^2): 0.4339 - forte, mas parte do efeito e da temperatura
+Clima (eta^2): 0.1631 - menor, mas efeito individual grande (chuva)
+
+--- Caracteristicas selecionadas ---
+1. Temperatura: associacao mais forte (r = 0.71 ; r^2 = 0.5 )
+2. Condicao meteorologica: efeito de grande magnitude (reducao de 56% na chuva fraca)
+
+Feito!

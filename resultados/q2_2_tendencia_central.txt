@@ -1,0 +1,24 @@
+
+--- Q2.2: Medidas de tendencia central ---
+
+--- Medidas de tendencia central e dispersao (300 dias) ---
+             Media Mediana   Min    Max      DP
+temp         21.99    22.2   5.5   34.8    6.89
+casual      785.48   691.5  46.0 3065.0  552.96
+registered 2931.76  3170.0 491.0 4614.0  967.56
+total_user 3717.25  4067.5 605.0 6043.0 1240.24
+
+Tabela salva em resultados/tendencia_central.csv
+
+--- Moda ---
+Moda de temp : 26 (frequencia 6 )
+Moda de casual : 639 (frequencia 3 )
+Moda de registered : 1506, 1628, 1707, 1730, 2419, 2549, 3107, 3348, 3413, 3840, 3848, 3854, 3896, 4044 (frequencia 2 )
+Moda de total_user : 1685, 2077, 3351, 3974, 4195, 4274, 4401, 4758, 5119, 5202, 5312 (frequencia 2 )
+
+--- Classe modal de total_user ---
+Classe modal de total_user (amplitude 500): [ 4500 , 5000 ) com 67 dias
+
+Numero de valores distintos: temp = 163 | total_user = 289 
+
+Feito!

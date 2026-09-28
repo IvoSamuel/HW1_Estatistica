@@ -1,0 +1,13 @@
+
+--- Q2.4: Histograma e boxplot ---
+
+--- Forma da distribuicao de total_user ---
+CV = 33.36 %
+Assimetria (coef. de momento) = -0.5781  | Pearson (3(media-mediana)/dp) = -0.8472  | Bowley (quartis) = -0.3693 
+Amplitude = 5438 
+null device 
+          1 
+
+Figura salva em figuras/histograma_boxplot_total_user.png
+
+Feito!

@@ -1,0 +1,20 @@
+
+--- Q3.3: Temperatura x total_user ---
+
+--- Correlacao e regressao ---
+Pearson r = 0.7096  | r^2 = 0.5035  | Spearman rho = 0.6678 
+Reta de minimos quadrados: total_user = 907.71 + 127.78 * temp
+
+--- Correlacao de Pearson por faixa de temperatura ---
+                 < 15 C     15-25 C      > 25 C
+n             60.000000  118.000000  122.000000
+r              0.499175    0.479811   -0.191056
+media_total 2215.933333 3627.983051 4541.934426
+
+Temperatura no dia de maior utilizacao: 29.8 
+null device 
+          1 
+
+Figura salva em figuras/dispersao_temperatura_total_user.png
+
+Feito!

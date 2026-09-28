@@ -1,0 +1,32 @@
+
+--- Q2.3: Quartis e outliers de total_user ---
+
+--- Quartis e IQR (type = 7, padrao do R) ---
+Q1 = 2735.5  Q2 = 4067.5  Q3 = 4681  IQR = 1945.5 
+Limite inferior = -182.75  Limite superior = 7599.25 
+
+--- Comparacao entre metodos de quartil ---
+      [,1]   [,2]   [,3]
+25% 2727.0 2718.5 2735.5
+50% 4067.5 4067.5 4067.5
+75% 4683.0 4685.0 4681.0
+
+--- Outliers ---
+Numero de possiveis outliers: 0 
+Nenhuma observacao classificada como possivel valor atipico.
+
+--- Estatisticas do boxplot (boxplot.stats) ---
+$stats
+[1]  605.0 2727.0 4067.5 4683.0 6043.0
+
+$n
+[1] 300
+
+$conf
+[1] 3889.07 4245.93
+
+$out
+integer(0)
+
+
+Feito!

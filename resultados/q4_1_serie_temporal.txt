@@ -1,0 +1,50 @@
+
+--- Q4.1: Serie temporal de total_user ---
+
+--- Medias mensais ---
+        total_user casual registered temp
+2011-02     1753.0  248.9     1504.0 12.1
+2011-03     2066.0  413.7     1652.2 13.6
+2011-04     3162.3  744.9     2417.5 19.3
+2011-05     4381.3 1001.6     3379.7 23.7
+2011-06     4783.7 1020.4     3763.3 28.4
+2011-07     4559.4 1175.9     3383.5 31.1
+2011-08     4409.4  930.4     3479.0 28.9
+2011-09     4247.3  884.8     3362.4 25.1
+2011-10     3984.2  813.6     3170.6 19.3
+2011-11     3405.6  519.8     2885.8 16.5
+2011-12     3727.0  182.0     3545.0 12.8
+
+Tabela salva em resultados/medias_mensais.csv
+
+--- Dia de maior utilizacao ---
+        dteday season_f weather_f temp total_user
+150 2011-07-04    Verão   Nublado 29.8       6043
+
+--- Dias de menor utilizacao (5 menores) ---
+        dteday  season_f   weather_f temp total_user
+30  2011-03-06   Inverno     Nublado 15.4        605
+34  2011-03-10   Inverno Chuva fraca 16.0        623
+267 2011-10-29    Outono Chuva fraca 10.4        627
+71  2011-04-16 Primavera Chuva fraca 17.7        795
+1   2011-02-05   Inverno     Nublado  9.6       1005
+
+--- Media de casual e registered por dia da semana ---
+  dow casual registered total_user
+1 Seg  699.7     3062.9     3762.6
+2 Ter  534.8     3243.3     3778.0
+3 Qua  460.0     3105.6     3565.5
+4 Qui  496.3     3110.9     3607.2
+5 Sex  659.3     3110.1     3769.3
+6 Sab 1311.8     2442.5     3754.3
+7 Dom 1333.6     2451.4     3784.9
+
+--- Proporcao de casual no total por estacao ---
+  Inverno Primavera     Verão    Outono 
+    0.179     0.223     0.227     0.180 
+null device 
+          1 
+
+Figura salva em figuras/serie_temporal_total_user.png
+
+Feito!

@@ -1,0 +1,37 @@
+
+--- Q4.2: Revisita das caracteristicas ---
+
+--- Temperatura em classes de 4 C ---
+   classe  n  media mediana prop_low
+1   [4,8)  4 1584.8  1571.5    1.000
+2  [8,12) 21 1819.2  1815.0    0.952
+3 [12,16) 45 2551.2  2402.0    0.600
+4 [16,20) 50 3234.0  3204.0    0.320
+5 [20,24) 47 4174.6  4362.0    0.085
+6 [24,28) 59 4448.3  4713.0    0.068
+7 [28,32) 64 4621.3  4648.5    0.000
+8 [32,36) 10 3970.3  3880.5    0.000
+
+Tabela salva em resultados/total_user_por_classe_temp.csv
+
+eta^2 (temperatura em classes de 4 C) = 0.5675  (compare com r^2 linear = 0.5035 )
+
+--- Media de total_user por clima dentro de cada estacao ---
+          Céu limpo Nublado Chuva fraca
+Inverno        2049    1629         623
+Primavera      4237    3277        1240
+Verão          4684    4158        2183
+Outono         4134    3643        1943
+
+--- Mediana por clima ---
+  Céu limpo     Nublado Chuva fraca 
+     4342.0      3644.0      1829.5 
+
+--- Variacao relativa da media ---
+Nublado vs Ceu limpo = -16.3 % | Chuva fraca vs Ceu limpo = -55.9 %
+null device 
+          1 
+
+Figura salva em figuras/boxplot_temp_classes_clima_estacao.png
+
+Feito!
